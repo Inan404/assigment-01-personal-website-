@@ -9,7 +9,10 @@ body{
   font-size: 60px;
   font-weight: 400;
 }
-
+#title{
+  border-left: 6px solid tomato;
+  padding-left: 13px;
+}
 .color{
   color: #FF5959;
 }
@@ -80,10 +83,10 @@ background-repeat : no-repeat;
 }
 
 .quote{
-  color:  #FF5959;
+  color: #FF5959;
   margin: 140px;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
 
 }
 footer{
