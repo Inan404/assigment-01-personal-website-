@@ -1,0 +1,113 @@
+body{
+  margin:0;
+  background-image: url(https://media.istockphoto.com/photos/old-brown-paper-parchment-background-design-with-distressed-vintage-picture-id1283615709?b=1&k=20&m=1283615709&s=170667a&w=0&h=T-1t9shuMZ8jku4J8kSrJ5gJXcc6VEUtolAEWTkSKRs=);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.title{
+  font-family:'Yeseva One', cursive;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.color{
+  color: #FF5959;
+}
+p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+.flex-container{
+  display: flex;
+}
+.half-width{
+  width: 50%;
+  padding-left: 156px;
+}
+
+.half-width img{
+  width: 80%;
+}
+
+.link-button{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  background-image: linear-gradient(gold,#FF4790);
+  padding: 20px 40px;
+  text-decoration: none;
+  color:white;
+  border-radius: 15px;
+
+}
+
+.section-title{
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 48px;  
+}
+.background2{
+background-image: url(images/shapes/shape-1.png);
+background-position-x: 1600px;
+background-position-y: 400px;
+background-size: 200px;
+background-repeat : no-repeat;
+}
+.background{
+background-image: url(images/shapes/shape-1.png);
+background-position-x: 50px;
+background-position-y: 400px;
+background-size: 200px;
+background-repeat : no-repeat;
+}
+
+.one-third-width{
+  width: 33.33%;  
+  border-radius: 26px;
+  padding: 20px 10px; 
+  padding-left: 40px;
+}
+
+.one-third-width h3{
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+
+}
+
+.one-third-width img{
+  width: 60%;
+
+}
+
+.quote{
+  color:  #FF5959;
+  margin: 140px;
+  text-align: center;
+  font-size: 30px;
+
+}
+footer{
+  padding: 39px 554px 46px 554px;
+  text-align: center;
+  background-color: black;
+  color : whitesmoke;
+}
+/* aligning images side by side : taken from w3schools.com */
+
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  text-align: center;
+}
+
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
